@@ -6,6 +6,8 @@ find_package(catkin REQUIRED COMPONENTS message_generation std_msgs geometry_msg
 add_message_files(
   FILES
   Table.msg
+  Primitive.msg
+  PrimitiveArray.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
